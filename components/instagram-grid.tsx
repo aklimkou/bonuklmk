@@ -15,11 +15,11 @@ export function InstagramGrid() {
   ]
 
   return (
-    <section id="home" className="py-20 px-6">
+    <section id="home" className="py-16 md:py-20 px-4 md:px-6">
       <div className="max-w-7xl mx-auto">
         {/* Handle */}
-        <div className="text-center mb-12">
-          <div className="text-3xl md:text-4xl font-serif tracking-wide">
+        <div className="text-center mb-8 md:mb-12">
+          <div className="text-2xl md:text-3xl lg:text-4xl font-serif tracking-wide">
             @bonu
           </div>
         </div>

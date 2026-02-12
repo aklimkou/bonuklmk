@@ -24,10 +24,10 @@ export function RotatingImage() {
   }, [images.length])
 
   return (
-    <section id="portfolio" className="py-12 md:py-20 bg-[#4a4a3a]">
+    <section id="portfolio" className="py-16 md:py-20 bg-[#e8dcc4]">
       <div className="max-w-[1000px] mx-auto px-4 md:px-5">
         <div className="flex justify-center items-center">
-          <div className="relative w-full max-w-[400px] aspect-[3/4]">
+          <div className="relative w-full max-w-[300px] md:max-w-[400px] aspect-[3/4]">
             <Image
               src={`/images/${images[currentIndex]}`}
               alt="Gallery"

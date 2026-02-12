@@ -52,10 +52,10 @@ export function ContactForm() {
 
   return (
     <>
-      <section id="contact" className="py-20 px-6 bg-[#f5f1ed]">
+      <section id="contact" className="py-16 md:py-20 px-4 md:px-6 bg-[#f5f1ed]">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="font-serif text-3xl md:text-4xl mb-4">Get In Touch</h2>
-          <p className="text-gray-600 mb-8">
+          <h2 className="font-serif text-3xl md:text-4xl mb-3 md:mb-4">Get In Touch</h2>
+          <p className="text-gray-600 text-sm md:text-base mb-6 md:mb-8">
             Ready to transform your style? Let's connect
           </p>
           <button
@@ -70,7 +70,7 @@ export function ContactForm() {
       {/* Modal */}
       {isOpen && (
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black bg-opacity-50">
-          <div className="bg-white w-full max-w-md p-6 md:p-8 relative max-h-[90vh] overflow-y-auto">
+          <div className="bg-white w-full max-w-md p-8 relative">
             <button
               onClick={() => setIsOpen(false)}
               className="absolute top-4 right-4 hover:opacity-60 transition-opacity"

@@ -1,22 +1,20 @@
 import { Navigation } from "@/components/navigation"
-import { Hero } from "@/components/hero"
-import { About } from "@/components/about"
+import { AboutMe } from "@/components/about-me"
+import { InstagramGrid } from "@/components/instagram-grid"
 import { Services } from "@/components/services"
-import { Portfolio } from "@/components/portfolio"
-import { Statement } from "@/components/statement"
-import { Contact } from "@/components/contact"
+import { RotatingImage } from "@/components/rotating-image"
+import { ContactForm } from "@/components/contact-form"
 import { Footer } from "@/components/footer"
 
 export default function Home() {
   return (
-    <main>
+    <main className="min-h-screen">
       <Navigation />
-      <Hero />
-      <About />
+      <AboutMe />
+      <InstagramGrid />
       <Services />
-      <Portfolio />
-      <Statement />
-      <Contact />
+      <RotatingImage />
+      <ContactForm />
       <Footer />
     </main>
   )

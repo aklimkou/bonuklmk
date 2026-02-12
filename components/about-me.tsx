@@ -34,18 +34,15 @@ export function AboutMe() {
             </h2>
 
             <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-              I am a stylist and your guide to the world of fashion, 
-              self-awareness, confidence, and transformation.
+              I'm a stylist and your guide to fashion, confidence, and transformation—I believe clothing is one of the most powerful tools for achieving your goals when it genuinely aligns with who you are.
             </p>
 
             <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-              Without a doubt, clothing is a powerful tool for achieving 
-              goals, and I have proven this through 7 years of my work.
+              I work efficiently with women who want to delegate their wardrobe, handling most of the work behind the scenes so you can simply enjoy results that feel effortless and authentic.
             </p>
 
             <p className="text-gray-700 text-sm md:text-base leading-relaxed">
-              I value an individual approach and correspondence with your inner self. 
-              That's exactly what helps to form a unique style.
+              I don't believe in chasing trends or constant overhauls; I build wardrobes that last, refining them thoughtfully over time to create a style that's uniquely yours.
             </p>
           </div>
         </div>

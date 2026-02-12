@@ -36,9 +36,14 @@ export function RotatingImage() {
     <>
       <section id="portfolio" className="pt-10 md:pt-12 pb-16 md:pb-20 bg-[#e8dcc4]">
         <div className="max-w-7xl mx-auto px-4 md:px-6">
-        <h2 className="text-center text-[1.75rem] md:text-[2rem] font-light tracking-wide mb-[40px] md:mb-[50px]">
-          Selected Works
-        </h2>
+        <div className="text-center mb-[40px] md:mb-[50px]">
+          <h2 className="text-[1.75rem] md:text-[2rem] font-light tracking-wide mb-2">
+            Selected Works
+          </h2>
+          <p className="text-gray-600 text-xs md:text-sm">
+            campaigns | personal styling | special events
+          </p>
+        </div>
           
           {/* Row 1 */}
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 lg:grid-cols-9 gap-2 md:gap-3 mb-2 md:mb-3">

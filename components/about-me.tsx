@@ -10,7 +10,7 @@ export function AboutMe() {
             STYLIST
           </h1>
           <p className="text-gray-600 text-xs md:text-sm leading-relaxed max-w-2xl mx-auto px-4">
-            Style consultations, wardrobe solutions, event styling and photoshoots.
+            style consultations | wardrobe solutions | event styling | commercial
           </p>
         </div>
 

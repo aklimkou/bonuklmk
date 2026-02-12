@@ -54,7 +54,7 @@ export function ContactForm() {
     <>
       <section id="contact" className="py-16 md:py-20 px-4 md:px-6 bg-[#f5f1ed]">
         <div className="max-w-2xl mx-auto text-center">
-          <h2 className="font-serif text-3xl md:text-4xl mb-3 md:mb-4">Get In Touch</h2>
+          <h2 className="text-[1.75rem] md:text-[2rem] font-light tracking-wide mb-3 md:mb-4">Get In Touch</h2>
           <p className="text-gray-600 text-sm md:text-base mb-6 md:mb-8">
             Ready to transform your style? Let's connect
           </p>
